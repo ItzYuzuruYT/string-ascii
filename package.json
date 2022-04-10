@@ -1,0 +1,34 @@
+{
+  "name": "string-ascii",
+  "version": "1.0.0",
+  "description": "an npm package that converts string to ascii or vice versa",
+  "main": "build/index.js",
+  "types": "./typings/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node build/index.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItzYuzuruYT/string-ascii.git"
+  },
+  "keywords": [
+    "string-ascii",
+    "string to ascii",
+    "ascii to string",
+    "string-to-ascii",
+    "ascii-to-string",
+    "string",
+    "ascii"
+  ],
+  "author": "ItzYuzuru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItzYuzuruYT/string-ascii/issues"
+  },
+  "homepage": "https://github.com/ItzYuzuruYT/string-ascii#readme",
+  "dependencies": {
+    "typescript": "^4.6.3"
+  }
+}
